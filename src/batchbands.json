@@ -1,0 +1,25 @@
+{
+	"Bands": [
+		{
+			"PutRequest": {
+				"Item": {
+					"BandName": {"S": "Evanescex"},
+					"FormationYear": {"N": "2011"},
+					"Gender": {"S": "Metal"},
+					"InActivity": {"BOOL": false},
+					"BandLeader": {"S": "Ivy Simons"}
+				}
+			}
+		},
+		{
+			"PutRequest": {
+				"Item": {
+					"BandName": {"S": "Malditos Hippies Sujos"},
+					"FormationYear": {"N": "2014"},
+					"InActivity": {"BOOL": false},
+					"BandLeader": {"S": "Victor Ribeiro"}
+				}
+			}
+		}
+	]
+}
